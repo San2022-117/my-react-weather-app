@@ -1,0 +1,167 @@
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+.dayTime {
+  font-size: 20px;
+  margin: 10px auto;
+  padding: 10px;
+  padding-right: 14px;
+  float: right;
+}
+.forecast {
+  font-size: 18px;
+  margin: 0 auto;
+  max-width: 1000px;
+  border-radius: 2px;
+}
+.weather-search {
+  margin: 0 auto;
+  padding: 10px;
+  width: 49.9%;
+  max-width: 1000px;
+  border: 1px solid #030027;
+  border-radius: 2px;
+  background-color: #e2f3f1;
+}
+
+.search-engine {
+  margin: 0 auto;
+  padding: 10px 15px;
+}
+.search-weather {
+  font-size: 19px;
+}
+
+.search-city-form {
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.search-city-button {
+  font-size: 19px;
+}
+.serach-result {
+  font-size: 20px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  max-width: 1000px;
+  border-radius: 2px;
+}
+
+.primary-info {
+  padding-top: 6px;
+}
+div.col-3.primary.city {
+  font-size: 18px;
+  padding-top: 22px;
+}
+
+.primary.temperature {
+  padding-top: 12px;
+}
+.primary strong {
+  font-size: 26px;
+  margin-right: 2px;
+}
+.primary small {
+  font-size: 18px;
+  position: relative;
+  top: -10px;
+}
+
+.cel,
+.fahr {
+  text-decoration: none;
+}
+.weather-icon {
+  width: 100%;
+}
+.further-info {
+  margin: 0 auto;
+  padding: 25px;
+  width: 49.9%;
+  max-width: 1000px;
+  border: 1px solid #030027;
+  border-radius: 2px;
+  background-color: #e2f3f1;
+}
+
+.city,
+.temperature,
+.description {
+  display: inline;
+}
+
+span.temperature {
+  font-size: 30px;
+}
+.description {
+  font-size: 18px;
+  padding-top: 22px;
+}
+.description:first-letter {
+  text-transform: capitalize;
+}
+
+.primary-info .active {
+  color: rgb(33, 37, 41);
+  cursor: default;
+}
+
+.primary-info .active :hover {
+  text-decoration: none;
+}
+
+.weekly-forecast {
+  background-color: #e2f3f1;
+  margin: 10px auto;
+  max-width: 1000px;
+  border: 1px solid #030027;
+  border-radius: 2px;
+  line-height: 35px;
+}
+
+.weekly-forecast.week-days {
+  margin-top: 50px;
+  margin: 0 auto;
+  padding-left: 20px;
+  text-align: center;
+  width: 9%;
+}
+
+.week-day {
+  font-size: 18px;
+  color: black;
+  padding-top: 20px;
+}
+img {
+  font-size: 30px;
+  text-align: center;
+  margin-left: 2px;
+}
+
+div.week-day {
+  text-align: center;
+}
+div.weather-img {
+  text-align: center;
+}
+
+div.min-max {
+  text-align: center;
+}
+
+.week-day-temp-min {
+  color: black;
+  font-size: 18px;
+  opacity: 0.6;
+  margin-left: -2px;
+  margin-right: 3px;
+}
+
+.week-day-temp-max {
+  color: black;
+  font-size: 18px;
+  margin: 2px;
+  margin-left: 3px;
+}
